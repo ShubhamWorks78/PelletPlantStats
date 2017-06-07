@@ -38,6 +38,7 @@ public class FeedActivity extends AppCompatActivity {
 
         sav = (Button)findViewById(R.id.Btn_Sav);
         dis = (Button)findViewById(R.id.Btn_Disc);
+
         coal = (EditText)findViewById(R.id.editCoal);
         lime = (EditText)findViewById(R.id.editLime);
         haem = (EditText)findViewById(R.id.editHaem);
@@ -47,6 +48,7 @@ public class FeedActivity extends AppCompatActivity {
         yea = (EditText)findViewById(R.id.edit_Year);
 
         home = (Button)findViewById(R.id.Btn_Feed_Home);
+
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

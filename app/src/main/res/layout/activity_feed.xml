@@ -21,7 +21,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30sp"
+        android:layout_height="20sp"
         android:orientation="vertical">
     </LinearLayout>
     <LinearLayout
@@ -109,7 +109,7 @@
         android:id="@+id/editCoal"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="18dp"
         android:orientation="vertical">
     </LinearLayout>
     <EditText
@@ -123,7 +123,7 @@
         android:id="@+id/editLime"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="18dp"
         android:orientation="vertical">
     </LinearLayout>
     <EditText
@@ -137,7 +137,7 @@
         android:id="@+id/editHaem"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="18dp"
         android:orientation="vertical">
     </LinearLayout>
     <EditText
@@ -156,7 +156,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
             android:id="@+id/Btn_Sav"
@@ -184,4 +184,5 @@
             android:layout_marginLeft="20dp"
         />
     </LinearLayout>
+
 </LinearLayout>

@@ -1,4 +1,4 @@
-git<LinearLayout
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -10,7 +10,7 @@ git<LinearLayout
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Online Retrieval"
+            android:text="Offline Retrieval"
             android:textSize="25dp"
             android:id="@+id/titleLabel"
             android:gravity="center"

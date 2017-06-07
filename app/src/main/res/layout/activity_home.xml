@@ -13,15 +13,26 @@
 
 
     <Button
-        android:text="Feed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_below="@+id/btnRetrieve"
-        android:layout_centerHorizontal="true" android:layout_marginTop="73dp"
-        android:id="@+id/btnFeed"/>
-    <Button
         android:text="Retrieve"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="114dp" android:id="@+id/btnRetrieve"
         android:layout_alignParentTop="true" android:layout_alignStart="@+id/btnFeed"/>
+
+    <Button
+        android:text="Feed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:id="@+id/btnFeed" android:layout_below="@+id/btnRetrieve"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:id="@+id/btn_Exit_home"
+        android:layout_alignParentBottom="true" android:layout_alignStart="@+id/btnFeed"
+        android:layout_marginBottom="25dp"/>
 </RelativeLayout>

@@ -187,7 +187,6 @@
             android:text="Save Offline"
             android:textAllCaps="false"
             android:visibility="gone"
-            android:layout_gravity="center"
             android:id="@+id/Btn_Save_Local"/>
     </LinearLayout>
 </LinearLayout>
